@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- icon -->
+  <link rel="shortcut icon" href="media/weather.png">
+  <!-- fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,500,700" rel="stylesheet">
+  <!-- css -->
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- icons -->
+  <script src="https://kit.fontawesome.com/e65e14f114.js" crossorigin="anonymous"></script>
+  <!-- Title -->
+  <title>Weather Channel</title>
+  
+</head>
+
+<body>
+
+  <section class="wrapper">
+    <div id="stars"></div>
+    <div id="stars2"></div>
+    <div id="stars3"></div>
+  </section>
+
+  <div class="weather">
+    <div class="header">
+    <h1 class="heading-title">Weather Channel</h1>
+    <input id="inputValue" type="text" placeholder="Type the City">
+    <button id="submit">submit</button>
+  </div>
+
+  <div class="container">
+    <div class="card">
+      <div class="content">
+        <img id="wicon">
+        <span id="city"></span>
+        <h3 id="temp">
+          <span id="celcius"><sup id="degrees"></sup></span>
+        </h3>
+        <span id="description"></span>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <script src="/src/jquery-3.6.0.min.js"></script>
+  <script src="js/script.js"></script>
+
+</body>
+</html>
+
+
